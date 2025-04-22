@@ -9,5 +9,9 @@ RSpec.describe StringCalculator do
     it 'returns the number itself when only one number is provided' do
       expect(StringCalculator.add("5")).to eq(5)
     end
+
+    it 'returns the sum when two number is provided' do
+      expect(StringCalculator.add("5, 9")).to eq(14)
+    end
   end
 end
