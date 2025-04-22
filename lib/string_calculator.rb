@@ -4,10 +4,9 @@ module StringCalculator
     numbers = nums.split(/#{delimiter}/)
     negatives = numbers.select { |num| num.to_i < 0 }
     raise "negative numbers not allowed: #{negatives.join(',')}" unless negatives.empty?
-    
+
     numbers.sum do |num|
       n = num.to_i
-      raise "negative numbers not allowed: #{n}" if n < 0
       n <= 1000 ? n : 0
     end
   end

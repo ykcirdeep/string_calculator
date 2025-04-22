@@ -37,5 +37,17 @@ RSpec.describe StringCalculator do
         StringCalculator.add("//[***]\n1***-2***-7")
       }.to raise_error("negative numbers not allowed: -2,-7")
     end
+
+    it "handles all numbers > 1000" do
+      expect(StringCalculator.add("1001,2000")).to eq(0)
+    end
+  
+    it "handles custom delimiters with large numbers" do
+      expect(StringCalculator.add("//[;]\n1;1001;2;2000")).to eq(3)
+    end
+  
+    it "handles newlines with large numbers" do
+      expect(StringCalculator.add("1\n1001,2")).to eq(3)
+    end
   end
 end
