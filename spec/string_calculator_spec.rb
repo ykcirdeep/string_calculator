@@ -17,5 +17,9 @@ RSpec.describe StringCalculator do
     it "given '1\n2,3' & it returns 6" do
       expect(StringCalculator.add("1\n2,3")).to eq(6)
     end
+
+    it "given '//;\n1;2' & it returns 3" do
+      expect(StringCalculator.add("//;\n1;2")).to eq(3)
+    end
   end
 end
