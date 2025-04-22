@@ -2,7 +2,9 @@ module StringCalculator
   def self.add(numbers)
     delimiter, nums = parse_delimiter(numbers)
     numbers = nums.split(/#{delimiter}/)
-
+    negatives = numbers.select { |num| num.to_i < 0 }
+    raise "negative numbers not allowed: #{negatives.join(',')}" unless negatives.empty?
+    
     numbers.sum do |num|
       n = num.to_i
       raise "negative numbers not allowed: #{n}" if n < 0
