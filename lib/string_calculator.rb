@@ -1,5 +1,7 @@
 module StringCalculator
   def self.add(numbers)
-    return 0 if numbers.empty?
+    numbers = numbers.split(/[\s,]+/)
+    numbers = numbers.map!(&:to_i)
+    numbers.sum
   end
 end
