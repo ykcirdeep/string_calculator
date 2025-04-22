@@ -1,0 +1,242 @@
+Total allocated: 681545 bytes (10014 objects)
+Total retained:  110081 bytes (2 objects)
+
+allocated memory by gem
+-----------------------------------
+    681545  string_calculator/lib
+
+allocated memory by file
+-----------------------------------
+    681545  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb
+
+allocated memory by location
+-----------------------------------
+    601425  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+     80040  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:5
+        40  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:17
+        40  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:22
+
+allocated memory by class
+-----------------------------------
+    510873  String
+    169792  Array
+       600  Regexp
+       280  MatchData
+
+allocated objects by gem
+-----------------------------------
+     10014  string_calculator/lib
+
+allocated objects by file
+-----------------------------------
+     10014  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb
+
+allocated objects by location
+-----------------------------------
+     10011  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:17
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:22
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:5
+
+allocated objects by class
+-----------------------------------
+     10009  String
+         3  Array
+         1  MatchData
+         1  Regexp
+
+retained memory by gem
+-----------------------------------
+    110081  string_calculator/lib
+
+retained memory by file
+-----------------------------------
+    110081  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb
+
+retained memory by location
+-----------------------------------
+    110041  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+        40  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:22
+
+retained memory by class
+-----------------------------------
+    110041  String
+        40  Array
+
+retained objects by gem
+-----------------------------------
+         2  string_calculator/lib
+
+retained objects by file
+-----------------------------------
+         2  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb
+
+retained objects by location
+-----------------------------------
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:22
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+retained objects by class
+-----------------------------------
+         1  Array
+         1  String
+
+
+Allocated String Report
+-----------------------------------
+         6  "(?-mix:[\\s,]+)"
+         6  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "10000"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9832"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9833"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9834"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9835"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9836"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9837"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9838"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9839"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9840"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9841"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9842"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9963"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9964"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9965"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9966"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9967"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9968"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9969"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9970"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9971"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9972"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9973"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9974"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9975"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9976"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9977"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9978"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9979"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9980"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9981"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9982"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9983"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9984"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9985"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9986"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9987"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9988"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9989"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9990"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9991"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9992"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9993"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9994"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9995"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9996"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9997"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9998"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+         1  "9999"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
+
+Retained String Report
+-----------------------------------
+         1  "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70"
+         1  /Users/deepak/Desktop/string_calculator/lib/string_calculator.rb:4
+
