@@ -50,4 +50,24 @@ RSpec.describe StringCalculator do
       expect(StringCalculator.add("1\n1001,2")).to eq(3)
     end
   end
+
+  describe "with extreme inputs" do
+    it "handles 10000 numbers" do
+      input = "9," * 999999 + "9"
+      expect(StringCalculator.add(input)).to eq(9000000)
+    end
+
+    it "handles maximum integer values" do
+      max = 2**(0.size * 8 - 2) - 1
+      expect(StringCalculator.add("#{max},#{max}")).to eq(0)
+    end
+
+    it "treats empty elements as zero" do
+      expect(StringCalculator.add("1,,2")).to eq(3)
+    end
+
+    it "ignores whitespace around numbers" do
+      expect(StringCalculator.add(" 1 , 2 ")).to eq(3)
+    end
+  end
 end
